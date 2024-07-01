@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>
+          SPLI <br />
+          TTER
+        </h2>
+      </div>
+      <div class="calculator">
+        <div class="bill">
+          <div class="amount">
+            <label for="bill">Bill</label>
+            <br />
+            <input type="text" name="bill" id="bill" placeholder="$" />
+          </div>
+          <div class="tip">
+            <p>Select Tip %</p>
+            <div class="buttons">
+              <div class="button1">5%</div>
+              <div class="button2">10%</div>
+              <div class="button3">15%</div>
+              <div class="button4">25%</div>
+              <div class="button5">50%</div>
+              <div class="button6">Custom</div>
+            </div>
+          </div>
+          <div class="people">
+            <label for="people">Number of people</label>
+            <br />
+            <input type="text" name="people" id="people" placeholder="$" />
+          </div>
+        </div>
+        <div class="display">
+          <div class="tipamount">
+            <div class="amount1">
+              <p>
+                Tip Amount <br />
+                / person
+              </p>
+              <p class="money">$0.00</p>
+            </div>
+            <div class="amount2">
+              <p>
+                Tip Amount <br />
+                / person
+              </p>
+              <p class="money">$0.00</p>
+            </div>
+          </div>
+          <div class="submit">
+            <div class="reset">RESET</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
